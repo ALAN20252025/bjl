@@ -2,7 +2,7 @@ from PySide6.QtWidgets import (QMainWindow, QLabel, QVBoxLayout, QWidget,
                                QPushButton, QTableView, QHBoxLayout, QComboBox,
                                QSpinBox, QDoubleSpinBox, QGroupBox, QFormLayout,
                                QMessageBox, QCheckBox, QSplitter, QLineEdit, QTabWidget,
-                               QTextEdit, QSystemTrayIcon, QMenu) # Added QTextEdit, QSystemTrayIcon, QMenu
+                               QTextEdit, QSystemTrayIcon, QMenu, QApplication) # Added QApplication
 from PySide6.QtGui import QStandardItemModel, QStandardItem, QIcon, QAction
 from PySide6.QtCore import Qt, QTimer
 import os
@@ -62,7 +62,15 @@ class MainWindow(QMainWindow):
         self.data_display_layout.addWidget(self.rounds_table_view)
         self.right_splitter.addWidget(self.data_display_widget)
 
-        self.chart_widget = SimulationChartWidget()
+        # 尝试使用增强图表，如果失败则使用原始图表
+        try:
+            from .widgets.enhanced_chart_widget import EnhancedChartWidget
+            self.chart_widget = EnhancedChartWidget()
+            self.logger.info("Using enhanced chart widget")
+        except Exception as e:
+            self.logger.warning(f"Enhanced chart widget not available, using basic chart: {e}")
+            self.chart_widget = SimulationChartWidget()
+        
         self.right_splitter.addWidget(self.chart_widget)
         self.right_splitter.setSizes([400, 300])
 
@@ -454,13 +462,20 @@ class MainWindow(QMainWindow):
         sl_threshold_for_chart = (sl_threshold_val_abs - initial_bankroll) if sl_threshold_val_abs is not None else None
         sp_threshold_for_chart = (sp_threshold_val_abs - initial_bankroll) if sp_threshold_val_abs is not None else None
 
-        self.chart_widget.update_p_l_chart(simulator.bet_history, initial_bankroll,
-                                           sl_threshold_for_chart, sp_threshold_for_chart)
-
+        # 获取轮次数据
         conn = get_db_connection(); cursor = conn.cursor()
         cursor.execute("SELECT round_number_in_shoe, result FROM rounds WHERE shoe_id = ? ORDER BY round_number_in_shoe ASC", (shoe_id_to_simulate,))
         shoe_rounds_data = cursor.fetchall(); conn.close()
-        self.chart_widget.update_trend_chart(shoe_rounds_data)
+
+        # 更新图表 - 支持新增强图表
+        if hasattr(self.chart_widget, 'update_data'):
+            # 新的增强图表
+            self.chart_widget.update_data(simulator.bet_history, initial_bankroll, shoe_rounds_data)
+        else:
+            # 原始图表
+            self.chart_widget.update_p_l_chart(simulator.bet_history, initial_bankroll,
+                                               sl_threshold_for_chart, sp_threshold_for_chart)
+            self.chart_widget.update_trend_chart(shoe_rounds_data)
 
         self.logger.info(f"Simulation complete. Final Bankroll: ${final_bankroll:.2f}, P/L: ${profit_loss:.2f}. Reason: {stop_reason}")
         QMessageBox.information(self, "Simulation Complete",

@@ -1,8 +1,9 @@
 import json
 import os
 import importlib
+import random
 from collections import Counter
-from .utils import app_logger
+from .utils import app_logger, get_db_connection
 from .strategy_rules import BaseStrategy # For type hinting and base class if needed
 
 # Define path to strategy configurations
@@ -74,16 +75,21 @@ class StrategyCombiner(BaseStrategy): # Inherit from BaseStrategy for consistent
         try:
             with open(self.config_path, 'r') as f:
                 config_data = json.load(f)
-            self.logger.info(f"Successfully loaded strategy configuration from {self.config_path}")
+            # Use app_logger directly if self.logger is not available yet
+            logger = getattr(self, 'logger', app_logger)
+            logger.info(f"Successfully loaded strategy configuration from {self.config_path}")
             return config_data
         except FileNotFoundError:
-            self.logger.error(f"Configuration file not found: {self.config_path}", exc_info=True)
+            logger = getattr(self, 'logger', app_logger)
+            logger.error(f"Configuration file not found: {self.config_path}", exc_info=True)
             raise
         except json.JSONDecodeError:
-            self.logger.error(f"Error decoding JSON from configuration file: {self.config_path}", exc_info=True)
+            logger = getattr(self, 'logger', app_logger)
+            logger.error(f"Error decoding JSON from configuration file: {self.config_path}", exc_info=True)
             raise
         except Exception as e:
-            self.logger.error(f"An unexpected error occurred while loading config {self.config_path}: {e}", exc_info=True)
+            logger = getattr(self, 'logger', app_logger)
+            logger.error(f"An unexpected error occurred while loading config {self.config_path}: {e}", exc_info=True)
             raise
 
     def _initialize_strategies(self, strategy_configs):
