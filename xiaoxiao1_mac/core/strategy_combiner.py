@@ -13,9 +13,13 @@ class StrategyCombiner(BaseStrategy): # Inherit from BaseStrategy for consistent
     def __init__(self, config_filename="default_fusion.json"):
         self.config_filename = config_filename
         self.config_path = os.path.join(CONFIG_DIR, self.config_filename)
+        
+        # Initialize parent class first to get logger
+        super().__init__(strategy_name="TemporaryName")
+        
+        # Now load config and update name
         self.config = self._load_config()
-
-        super().__init__(strategy_name=self.config.get("name", "UnnamedFusionStrategy"))
+        self.strategy_name = self.config.get("name", "UnnamedFusionStrategy")
         self.logger.info(f"StrategyCombiner initialized with config: {self.config_filename} - Name: {self.strategy_name}")
 
         self.strategies = self._initialize_strategies(self.config.get("strategies", []))

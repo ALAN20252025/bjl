@@ -27,7 +27,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.logger = app_logger
         self.logger.info("MainWindow initialized.")
-        self.setWindowTitle("XiaoXiao1 Baccarat Assistant")
+        self.setWindowTitle("小小1号 百家乐助手")
         self.setGeometry(100, 100, 1400, 900)
 
         self.qt_log_handler = qt_log_handler
@@ -67,7 +67,7 @@ class MainWindow(QMainWindow):
         self.right_splitter.setSizes([400, 300])
 
         self.data_chart_tab_layout.addWidget(self.right_splitter)
-        self.right_tab_widget.addTab(self.data_chart_tab, "📊 Data & Charts")
+        self.right_tab_widget.addTab(self.data_chart_tab, "📊 数据图表")
 
         self.log_tab = QWidget()
         self.log_tab_layout = QVBoxLayout(self.log_tab)
@@ -78,7 +78,7 @@ class MainWindow(QMainWindow):
         else:
             self.logger.warning("No QtLogHandler provided to MainWindow. Log display in GUI will not work.")
         self.log_tab_layout.addWidget(self.log_display_widget)
-        self.right_tab_widget.addTab(self.log_tab, "🧾 Logs")
+        self.right_tab_widget.addTab(self.log_tab, "🧾 日志")
 
         self.main_layout.addWidget(self.right_tab_widget)
 
@@ -96,21 +96,21 @@ class MainWindow(QMainWindow):
         self._setup_tray_icon()
 
     def _setup_control_panel_group(self):
-        control_panel_group = QGroupBox("🎛 Real-time Control Panel")
+        control_panel_group = QGroupBox("🎛 实时控制面板")
         cp_layout = QFormLayout()
         self.internal_code_input = QLineEdit()
-        self.internal_code_input.setPlaceholderText("Enter Internal Code")
-        cp_layout.addRow("Internal Code:", self.internal_code_input)
-        self.start_collection_button = QPushButton("Start Real-time Collection")
+        self.internal_code_input.setPlaceholderText("输入内部代码")
+        cp_layout.addRow("内部代码:", self.internal_code_input)
+        self.start_collection_button = QPushButton("开始实时采集")
         self.start_collection_button.clicked.connect(self.start_realtime_collection)
-        self.stop_collection_button = QPushButton("Stop Real-time Collection")
+        self.stop_collection_button = QPushButton("停止实时采集")
         self.stop_collection_button.clicked.connect(self.stop_realtime_collection)
         self.stop_collection_button.setEnabled(False)
         button_layout = QHBoxLayout()
         button_layout.addWidget(self.start_collection_button)
         button_layout.addWidget(self.stop_collection_button)
         cp_layout.addRow(button_layout)
-        self.collector_status_label = QLabel("Collector Status: Idle")
+        self.collector_status_label = QLabel("采集状态: 空闲")
         self.collector_status_label.setWordWrap(True)
         cp_layout.addRow(self.collector_status_label)
         control_panel_group.setLayout(cp_layout)
@@ -138,44 +138,44 @@ class MainWindow(QMainWindow):
                 self.strategy_combo.setCurrentText(current_sim_strategy_text)
 
     def _setup_simulation_group(self):
-        simulation_group = QGroupBox("📈 Simulation Setup")
+        simulation_group = QGroupBox("📈 模拟设置")
         simulation_form_layout = QFormLayout()
         self.shoe_id_combo = QComboBox()
-        simulation_form_layout.addRow("Select Shoe ID:", self.shoe_id_combo)
+        simulation_form_layout.addRow("选择靴号:", self.shoe_id_combo)
         self.strategy_combo = QComboBox()
-        simulation_form_layout.addRow("Select Strategy:", self.strategy_combo)
+        simulation_form_layout.addRow("选择策略:", self.strategy_combo)
         self.initial_bankroll_spin = QDoubleSpinBox()
         self.initial_bankroll_spin.setRange(0, 1000000); self.initial_bankroll_spin.setValue(1000); self.initial_bankroll_spin.setSuffix(" $")
-        simulation_form_layout.addRow("Initial Bankroll:", self.initial_bankroll_spin)
+        simulation_form_layout.addRow("初始资金:", self.initial_bankroll_spin)
 
         self.bet_sizing_combo = QComboBox()
-        self.bet_sizing_combo.addItems(["Fixed", "Percentage", "Kelly"])
+        self.bet_sizing_combo.addItems(["固定金额", "按比例", "凯利公式"])
         self.bet_sizing_combo.currentTextChanged.connect(self._update_bet_sizing_inputs_visibility)
-        simulation_form_layout.addRow("Bet Sizing Method:", self.bet_sizing_combo)
+        simulation_form_layout.addRow("下注方式:", self.bet_sizing_combo)
 
-        self.fixed_bet_amount_label = QLabel("Fixed Bet Amount:")
+        self.fixed_bet_amount_label = QLabel("固定下注金额:")
         self.bet_amount_spin = QDoubleSpinBox()
         self.bet_amount_spin.setRange(1, 10000); self.bet_amount_spin.setValue(10); self.bet_amount_spin.setSuffix(" $")
         simulation_form_layout.addRow(self.fixed_bet_amount_label, self.bet_amount_spin)
 
-        self.percentage_bet_label = QLabel("Bet Percentage (% of Bankroll):")
+        self.percentage_bet_label = QLabel("下注比例 (% 资金):")
         self.percentage_bet_spin = QDoubleSpinBox()
         self.percentage_bet_spin.setRange(0.01, 100.0); self.percentage_bet_spin.setValue(1.0); self.percentage_bet_spin.setSuffix(" %"); self.percentage_bet_spin.setDecimals(2)
         simulation_form_layout.addRow(self.percentage_bet_label, self.percentage_bet_spin)
 
-        self.kelly_fraction_label = QLabel("Kelly Fraction (0.01-1.0):")
+        self.kelly_fraction_label = QLabel("凯利分数 (0.01-1.0):")
         self.kelly_fraction_spin = QDoubleSpinBox()
         self.kelly_fraction_spin.setRange(0.01, 1.0); self.kelly_fraction_spin.setValue(0.1); self.kelly_fraction_spin.setDecimals(2)
         simulation_form_layout.addRow(self.kelly_fraction_label, self.kelly_fraction_spin)
 
         self._update_bet_sizing_inputs_visibility(self.bet_sizing_combo.currentText())
 
-        self.max_consecutive_losses_label = QLabel("Max Cons. Losses (0 to disable):")
+        self.max_consecutive_losses_label = QLabel("最大连续亏损 (0禁用):")
         self.max_consecutive_losses_spin = QSpinBox()
         self.max_consecutive_losses_spin.setRange(0, 100); self.max_consecutive_losses_spin.setValue(0)
         simulation_form_layout.addRow(self.max_consecutive_losses_label, self.max_consecutive_losses_spin)
 
-        self.enable_stop_loss_check = QCheckBox("Enable Stop-Loss")
+        self.enable_stop_loss_check = QCheckBox("启用止损")
         self.stop_loss_percentage_spin = QSpinBox()
         self.stop_loss_percentage_spin.setRange(1, 100); self.stop_loss_percentage_spin.setValue(20); self.stop_loss_percentage_spin.setSuffix(" %")
         self.stop_loss_percentage_spin.setEnabled(False)
@@ -183,7 +183,7 @@ class MainWindow(QMainWindow):
         sl_layout = QHBoxLayout(); sl_layout.addWidget(self.enable_stop_loss_check); sl_layout.addWidget(self.stop_loss_percentage_spin)
         simulation_form_layout.addRow(sl_layout)
 
-        self.enable_stop_profit_check = QCheckBox("Enable Stop-Profit")
+        self.enable_stop_profit_check = QCheckBox("启用止盈")
         self.stop_profit_percentage_spin = QSpinBox()
         self.stop_profit_percentage_spin.setRange(1, 500); self.stop_profit_percentage_spin.setValue(50); self.stop_profit_percentage_spin.setSuffix(" %")
         self.stop_profit_percentage_spin.setEnabled(False)
@@ -191,7 +191,7 @@ class MainWindow(QMainWindow):
         sp_layout = QHBoxLayout(); sp_layout.addWidget(self.enable_stop_profit_check); sp_layout.addWidget(self.stop_profit_percentage_spin)
         simulation_form_layout.addRow(sp_layout)
 
-        self.run_simulation_button = QPushButton("Run Simulation")
+        self.run_simulation_button = QPushButton("运行模拟")
         self.run_simulation_button.clicked.connect(self.run_simulation)
         simulation_form_layout.addRow(self.run_simulation_button)
         simulation_group.setLayout(simulation_form_layout)
@@ -386,7 +386,15 @@ class MainWindow(QMainWindow):
             strategy_instance.fit(None, None)
         initial_bankroll = self.initial_bankroll_spin.value()
 
-        bet_sizing_method = self.bet_sizing_combo.currentText().lower()
+        bet_sizing_method_text = self.bet_sizing_combo.currentText()
+        if bet_sizing_method_text == "固定金额":
+            bet_sizing_method = "fixed"
+        elif bet_sizing_method_text == "按比例":
+            bet_sizing_method = "percentage" 
+        elif bet_sizing_method_text == "凯利公式":
+            bet_sizing_method = "kelly"
+        else:
+            bet_sizing_method = "fixed"  # Default fallback
         fixed_bet_val = self.bet_amount_spin.value()
         percentage_val = self.percentage_bet_spin.value() / 100.0
         kelly_frac_val = self.kelly_fraction_spin.value()
@@ -463,9 +471,9 @@ class MainWindow(QMainWindow):
                                 f"Stop Reason: {stop_reason}")
 
     def _update_bet_sizing_inputs_visibility(self, method_name):
-        is_fixed = (method_name == "Fixed")
-        is_percentage = (method_name == "Percentage")
-        is_kelly = (method_name == "Kelly")
+        is_fixed = (method_name == "固定金额")
+        is_percentage = (method_name == "按比例")
+        is_kelly = (method_name == "凯利公式")
         self.fixed_bet_amount_label.setVisible(is_fixed)
         self.bet_amount_spin.setVisible(is_fixed)
         self.percentage_bet_label.setVisible(is_percentage)
@@ -473,7 +481,7 @@ class MainWindow(QMainWindow):
         self.kelly_fraction_label.setVisible(is_kelly)
         self.kelly_fraction_spin.setVisible(is_kelly)
         if is_fixed:
-            self.fixed_bet_amount_label.setText("Fixed Bet Amount:")
+            self.fixed_bet_amount_label.setText("固定下注金额:")
 
     def _setup_auxiliary_area_group(self):
         aux_group = QGroupBox("💡 Auxiliary Info & Suggestions")
@@ -586,7 +594,7 @@ class MainWindow(QMainWindow):
             self._show_tray_message("Real Bet (Simulated)", f"Bet on {bet_on} for ${amount:.2f} placed.")
         else:
             self.real_bet_status_label.setText(f"Status: Bet failed - {response['message']}")
-            self._show_tray_message("Real Bet Failed (Simulated)", response['message'], icon=QSystemTrayIcon.Icon.Warning)
+            self._show_tray_message("Real Bet Failed (Simulated)", response['message'], icon=QSystemTrayIcon.MessageIcon.Warning)
 
         self._update_auxiliary_info() # Refresh today's performance which includes real bets if they had payout
 
@@ -599,10 +607,10 @@ class MainWindow(QMainWindow):
             self.tray_icon.setIcon(self.windowIcon())
         else:
             self.tray_icon.setIcon(QIcon(icon_path))
-        self.tray_icon.setToolTip("XiaoXiao1 Baccarat Assistant")
-        show_action = QAction("Show", self); quit_action = QAction("Exit", self)
+        self.tray_icon.setToolTip("小小1号 百家乐助手")
+        show_action = QAction("显示", self); quit_action = QAction("退出", self)
         show_action.triggered.connect(self.showNormal)
-        quit_action.triggered.connect(QApplication.instance().quit)
+        quit_action.triggered.connect(self.close)
         tray_menu = QMenu(); tray_menu.addAction(show_action); tray_menu.addAction(quit_action)
         self.tray_icon.setContextMenu(tray_menu)
         self.tray_icon.show()
@@ -615,12 +623,29 @@ class MainWindow(QMainWindow):
                 self.showNormal()
             self.activateWindow()
 
-    def _show_tray_message(self, title, message, icon=QSystemTrayIcon.Icon.Information, duration_ms=5000):
+    def _show_tray_message(self, title, message, icon=QSystemTrayIcon.MessageIcon.Information, duration_ms=5000):
         if QSystemTrayIcon.isSystemTrayAvailable() and self.tray_icon.isVisible():
             self.tray_icon.showMessage(title, message, icon, duration_ms)
             self.logger.info(f"Tray Message: Title='{title}', Msg='{message}'")
         else:
             self.logger.info(f"System tray not available or icon not visible. Message not shown: Title='{title}', Msg='{message}'")
+
+    def _setup_hot_reload_group(self):
+        hot_reload_group = QGroupBox("♻️ Hot Reload")
+        hr_layout = QVBoxLayout() # Use QVBoxLayout for simple button list
+
+        self.reload_strats_button = QPushButton("Reload Strategy Configs & Models")
+        self.reload_strats_button.clicked.connect(self.handle_hot_reload_strategies)
+        hr_layout.addWidget(self.reload_strats_button)
+
+        hot_reload_group.setLayout(hr_layout)
+        self.left_panel_layout.addWidget(hot_reload_group)
+
+    def handle_hot_reload_strategies(self):
+        self.logger.info("Hot reload triggered from GUI.")
+        # For now, just refresh the strategy map
+        self._update_strategy_map()
+        QMessageBox.information(self, "热重载", "策略重载成功。")
 
     def closeEvent(self, event):
         self.logger.info("Close event triggered. Stopping real-time collection if running.")

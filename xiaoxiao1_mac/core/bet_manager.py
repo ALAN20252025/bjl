@@ -192,13 +192,3 @@ if __name__ == '__main__':
     #    app_logger.info("Async test part commented out. Run within an asyncio loop if needed.")
 
     app_logger.info("BetManager direct run finished. Check 'bets' table for is_simulated=0 entries.")
-
-```
-
-This creates `core/bet_manager.py` with:
-*   `BetManager` class.
-*   `place_bet_sync()`: Simulates placing a bet, introduces a random delay, simulates acceptance/rejection, and if "accepted", records the bet in the `bets` table with `is_simulated = 0` and `payout = NULL`.
-*   Commented-out structure for `place_bet_async()` using `aiohttp` and `asyncio.sleep` to show how it might be designed.
-*   An `if __name__ == '__main__':` block to test the synchronous bet placement.
-
-The next step would be to integrate this `BetManager.place_bet_sync()` into the GUI, likely with new UI elements for placing manual "real" (simulated) bets. This part is not explicitly detailed in Step 22 but is implied by "mimic the interaction". I'll create a basic way to trigger this from the GUI.

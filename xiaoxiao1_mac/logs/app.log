@@ -1,0 +1,874 @@
+2025-06-27 18:17:44,225 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:17:44,225 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:17:44,225 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:17:44,225 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:17:44,225 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:17:44,225 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:17:44,225 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:18:30,585 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 18:18:30,585 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 18:18:30,588 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 18:18:30,588 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:18:30,588 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:18:30,588 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:18:30,588 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:18:30,588 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:18:30,588 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:18:30,588 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:18:30,588 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 18:18:30,589 - BaccaratApp - INFO - run_gui:51 - No backup found for today (20250627). Performing backup...
+2025-06-27 18:18:30,589 - BaccaratApp - INFO - utils:194 - Starting backup process to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/backups/backup_20250627_181830.zip...
+2025-06-27 18:18:30,590 - BaccaratApp - INFO - utils:201 - Backed up database file: /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:18:30,590 - BaccaratApp - INFO - utils:212 - Backed up log files from: /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/logs
+2025-06-27 18:18:30,590 - BaccaratApp - INFO - utils:216 - Backup completed successfully: /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/backups/backup_20250627_181830.zip
+2025-06-27 18:18:33,717 - BaccaratApp - INFO - strategy_ml:15 - Created directory for ML models: /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/ml_models
+2025-06-27 18:57:09,096 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 18:57:09,097 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 18:57:09,099 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 18:57:09,100 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:57:09,100 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:57:09,101 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:57:09,101 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:57:09,101 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:57:09,101 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:57:09,101 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:57:09,101 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 18:57:09,102 - BaccaratApp - INFO - run_gui:47 - Backup for today (20250627) already exists: backup_20250627_181830.zip
+2025-06-27 18:58:04,138 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 18:58:04,138 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 18:58:04,139 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 18:58:04,139 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:04,139 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:58:04,139 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:58:04,139 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:58:04,140 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:58:04,140 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:58:04,140 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:04,140 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 18:58:04,140 - BaccaratApp - INFO - run_gui:47 - Backup for today (20250627) already exists: backup_20250627_181830.zip
+2025-06-27 18:58:04,828 - BaccaratApp - INFO - run_gui:68 - Initializing QApplication...
+2025-06-27 18:58:04,974 - BaccaratApp - INFO - run_gui:71 - Creating MainWindow instance...
+2025-06-27 18:58:04,976 - BaccaratApp - INFO - main_window:29 - MainWindow initialized.
+2025-06-27 18:58:05,042 - BaccaratApp - INFO - bet_manager:15 - BetManager initialized (Simulated Real Betting).
+2025-06-27 18:58:14,393 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 18:58:14,393 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 18:58:14,393 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 18:58:14,393 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:14,393 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:58:14,393 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:58:14,393 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:58:14,394 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:58:14,394 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:58:14,394 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:14,394 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 18:58:14,394 - BaccaratApp - INFO - run_gui:47 - Backup for today (20250627) already exists: backup_20250627_181830.zip
+2025-06-27 18:58:15,072 - BaccaratApp - INFO - run_gui:68 - Initializing QApplication...
+2025-06-27 18:58:15,192 - BaccaratApp - INFO - run_gui:71 - Creating MainWindow instance...
+2025-06-27 18:58:15,192 - BaccaratApp - INFO - main_window:29 - MainWindow initialized.
+2025-06-27 18:58:15,243 - BaccaratApp - INFO - bet_manager:15 - BetManager initialized (Simulated Real Betting).
+2025-06-27 18:58:42,731 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 18:58:42,731 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 18:58:42,735 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 18:58:42,737 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:42,737 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:58:42,737 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:58:42,737 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:58:42,737 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:58:42,737 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:58:42,737 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:42,738 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 18:58:42,739 - BaccaratApp - INFO - run_gui:47 - Backup for today (20250627) already exists: backup_20250627_181830.zip
+2025-06-27 18:58:43,970 - BaccaratApp - INFO - run_gui:68 - Initializing QApplication...
+2025-06-27 18:58:44,127 - BaccaratApp - INFO - run_gui:71 - Creating MainWindow instance...
+2025-06-27 18:58:44,128 - BaccaratApp - INFO - main_window:29 - MainWindow initialized.
+2025-06-27 18:58:44,195 - BaccaratApp - INFO - bet_manager:15 - BetManager initialized (Simulated Real Betting).
+2025-06-27 18:58:44,236 - BaccaratApp - INFO - simulation_chart_widget:10 - SimulationChartWidget initializing.
+2025-06-27 18:58:44,262 - BaccaratApp - INFO - simulation_chart_widget:54 - SimulationChartWidget initialized successfully with P/L and Trend plots.
+2025-06-27 18:58:44,324 - BaccaratApp - INFO - main_window:77 - Connected QtLogHandler to LogDisplayWidget.
+2025-06-27 18:58:44,325 - BaccaratApp - DEBUG - main_window:265 - Loading styles...
+2025-06-27 18:58:44,327 - BaccaratApp - INFO - main_window:269 - Styles loaded successfully.
+2025-06-27 18:58:44,328 - BaccaratApp - INFO - strategy_ml:30 - SimpleML_RandomForest: No pre-trained model found at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/ml_models/simple_ml_randomforest_model.joblib. Model needs to be trained or loaded.
+2025-06-27 18:58:44,328 - BaccaratApp - INFO - strategy_ml:33 - SimpleML_RandomForest: Initialized with a default untrained RandomForestClassifier.
+2025-06-27 18:58:44,328 - BaccaratApp - INFO - strategy_ml:210 - SimpleML_RandomForest: No pre-trained model found or loaded. Initializing a new RandomForestClassifier. Call 'train_on_shoe_data' or 'fit' to train.
+2025-06-27 18:58:44,329 - BaccaratApp - ERROR - main_window:131 - Error loading default_fusion.json: 'StrategyCombiner' object has no attribute 'logger'
+Traceback (most recent call last):
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/strategy_combiner.py", line 73, in _load_config
+    self.logger.info(f"Successfully loaded strategy configuration from {self.config_path}")
+    ^^^^^^^^^^^
+AttributeError: 'StrategyCombiner' object has no attribute 'logger'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/gui/main_window.py", line 125, in _update_strategy_map
+    default_combiner = StrategyCombiner(config_filename="default_fusion.json")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/strategy_combiner.py", line 16, in __init__
+    self.config = self._load_config()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/strategy_combiner.py", line 82, in _load_config
+    self.logger.error(f"An unexpected error occurred while loading config {self.config_path}: {e}", exc_info=True)
+    ^^^^^^^^^^^
+AttributeError: 'StrategyCombiner' object has no attribute 'logger'
+2025-06-27 18:58:44,331 - BaccaratApp - INFO - main_window:293 - Loading round data into table view.
+2025-06-27 18:58:44,333 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:44,334 - BaccaratApp - INFO - main_window:306 - Loaded 0 rounds into table view.
+2025-06-27 18:58:44,334 - BaccaratApp - DEBUG - main_window:275 - Loading available shoes into combobox.
+2025-06-27 18:58:44,334 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:44,334 - BaccaratApp - INFO - main_window:287 - No shoes with data found to load.
+2025-06-27 18:58:44,335 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 18:58:44,335 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:44,335 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 18:58:44,335 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 18:58:44,335 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:58:44,336 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 18:59:09,010 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 18:59:09,010 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 18:59:09,010 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 18:59:09,011 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:09,011 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:59:09,011 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:59:09,011 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:59:09,011 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:59:09,011 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:59:09,011 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:09,011 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 18:59:09,012 - BaccaratApp - INFO - run_gui:47 - Backup for today (20250627) already exists: backup_20250627_181830.zip
+2025-06-27 18:59:09,861 - BaccaratApp - INFO - run_gui:68 - Initializing QApplication...
+2025-06-27 18:59:09,990 - BaccaratApp - INFO - run_gui:71 - Creating MainWindow instance...
+2025-06-27 18:59:09,990 - BaccaratApp - INFO - main_window:29 - MainWindow initialized.
+2025-06-27 18:59:10,045 - BaccaratApp - INFO - bet_manager:15 - BetManager initialized (Simulated Real Betting).
+2025-06-27 18:59:10,084 - BaccaratApp - INFO - simulation_chart_widget:10 - SimulationChartWidget initializing.
+2025-06-27 18:59:10,101 - BaccaratApp - INFO - simulation_chart_widget:54 - SimulationChartWidget initialized successfully with P/L and Trend plots.
+2025-06-27 18:59:10,146 - BaccaratApp - INFO - main_window:77 - Connected QtLogHandler to LogDisplayWidget.
+2025-06-27 18:59:10,147 - BaccaratApp - DEBUG - main_window:265 - Loading styles...
+2025-06-27 18:59:10,149 - BaccaratApp - INFO - main_window:269 - Styles loaded successfully.
+2025-06-27 18:59:10,149 - BaccaratApp - INFO - strategy_ml:30 - SimpleML_RandomForest: No pre-trained model found at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/ml_models/simple_ml_randomforest_model.joblib. Model needs to be trained or loaded.
+2025-06-27 18:59:10,149 - BaccaratApp - INFO - strategy_ml:33 - SimpleML_RandomForest: Initialized with a default untrained RandomForestClassifier.
+2025-06-27 18:59:10,150 - BaccaratApp - INFO - strategy_ml:210 - SimpleML_RandomForest: No pre-trained model found or loaded. Initializing a new RandomForestClassifier. Call 'train_on_shoe_data' or 'fit' to train.
+2025-06-27 18:59:10,150 - BaccaratApp - ERROR - main_window:131 - Error loading default_fusion.json: 'StrategyCombiner' object has no attribute 'logger'
+Traceback (most recent call last):
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/strategy_combiner.py", line 73, in _load_config
+    self.logger.info(f"Successfully loaded strategy configuration from {self.config_path}")
+    ^^^^^^^^^^^
+AttributeError: 'StrategyCombiner' object has no attribute 'logger'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/gui/main_window.py", line 125, in _update_strategy_map
+    default_combiner = StrategyCombiner(config_filename="default_fusion.json")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/strategy_combiner.py", line 16, in __init__
+    self.config = self._load_config()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/strategy_combiner.py", line 82, in _load_config
+    self.logger.error(f"An unexpected error occurred while loading config {self.config_path}: {e}", exc_info=True)
+    ^^^^^^^^^^^
+AttributeError: 'StrategyCombiner' object has no attribute 'logger'
+2025-06-27 18:59:10,151 - BaccaratApp - INFO - main_window:293 - Loading round data into table view.
+2025-06-27 18:59:10,153 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:10,154 - BaccaratApp - INFO - main_window:306 - Loaded 0 rounds into table view.
+2025-06-27 18:59:10,154 - BaccaratApp - DEBUG - main_window:275 - Loading available shoes into combobox.
+2025-06-27 18:59:10,154 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:10,154 - BaccaratApp - INFO - main_window:287 - No shoes with data found to load.
+2025-06-27 18:59:10,154 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 18:59:10,154 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:10,154 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 18:59:10,155 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 18:59:10,155 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:10,155 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 18:59:54,773 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 18:59:54,773 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 18:59:54,774 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 18:59:54,774 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:54,774 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 18:59:54,774 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 18:59:54,774 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 18:59:54,774 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 18:59:54,774 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 18:59:54,774 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:54,774 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 18:59:54,775 - BaccaratApp - INFO - run_gui:47 - Backup for today (20250627) already exists: backup_20250627_181830.zip
+2025-06-27 18:59:55,678 - BaccaratApp - INFO - run_gui:68 - Initializing QApplication...
+2025-06-27 18:59:55,804 - BaccaratApp - INFO - run_gui:71 - Creating MainWindow instance...
+2025-06-27 18:59:55,804 - BaccaratApp - INFO - main_window:29 - MainWindow initialized.
+2025-06-27 18:59:55,858 - BaccaratApp - INFO - bet_manager:15 - BetManager initialized (Simulated Real Betting).
+2025-06-27 18:59:55,900 - BaccaratApp - INFO - simulation_chart_widget:10 - SimulationChartWidget initializing.
+2025-06-27 18:59:55,918 - BaccaratApp - INFO - simulation_chart_widget:54 - SimulationChartWidget initialized successfully with P/L and Trend plots.
+2025-06-27 18:59:55,963 - BaccaratApp - INFO - main_window:77 - Connected QtLogHandler to LogDisplayWidget.
+2025-06-27 18:59:55,964 - BaccaratApp - DEBUG - main_window:265 - Loading styles...
+2025-06-27 18:59:55,966 - BaccaratApp - INFO - main_window:269 - Styles loaded successfully.
+2025-06-27 18:59:55,966 - BaccaratApp - INFO - strategy_ml:30 - SimpleML_RandomForest: No pre-trained model found at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/ml_models/simple_ml_randomforest_model.joblib. Model needs to be trained or loaded.
+2025-06-27 18:59:55,966 - BaccaratApp - INFO - strategy_ml:33 - SimpleML_RandomForest: Initialized with a default untrained RandomForestClassifier.
+2025-06-27 18:59:55,967 - BaccaratApp - INFO - strategy_ml:210 - SimpleML_RandomForest: No pre-trained model found or loaded. Initializing a new RandomForestClassifier. Call 'train_on_shoe_data' or 'fit' to train.
+2025-06-27 18:59:55,967 - BaccaratApp - INFO - strategy_combiner:77 - Successfully loaded strategy configuration from /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/../output/strategy_configs/default_fusion.json
+2025-06-27 18:59:55,967 - BaccaratApp - INFO - strategy_combiner:23 - StrategyCombiner initialized with config: default_fusion.json - Name: DefaultFusionStrategy
+2025-06-27 18:59:55,967 - BaccaratApp - INFO - strategy_combiner:109 - Successfully initialized strategy: FollowTheShoe from core.strategy_rules.FollowTheShoeStrategy with weight 1
+2025-06-27 18:59:55,967 - BaccaratApp - INFO - strategy_combiner:109 - Successfully initialized strategy: Alternate from core.strategy_rules.AlternateStrategy with weight 1
+2025-06-27 18:59:55,968 - BaccaratApp - INFO - strategy_ml:30 - SimpleML_RandomForest: No pre-trained model found at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/ml_models/simple_ml_randomforest_model.joblib. Model needs to be trained or loaded.
+2025-06-27 18:59:55,968 - BaccaratApp - INFO - strategy_ml:33 - SimpleML_RandomForest: Initialized with a default untrained RandomForestClassifier.
+2025-06-27 18:59:55,968 - BaccaratApp - INFO - strategy_ml:210 - SimpleML_RandomForest: No pre-trained model found or loaded. Initializing a new RandomForestClassifier. Call 'train_on_shoe_data' or 'fit' to train.
+2025-06-27 18:59:55,968 - BaccaratApp - INFO - strategy_combiner:109 - Successfully initialized strategy: SimpleML_RandomForest from core.strategy_ml.SimpleMLStrategy with weight 1
+2025-06-27 18:59:55,969 - BaccaratApp - INFO - strategy_combiner:29 - Fallback strategy 'SimpleML_RandomForest' initialized.
+2025-06-27 18:59:55,969 - BaccaratApp - INFO - strategy_combiner:35 - Fusion method: majority_vote_with_fallback
+2025-06-27 18:59:55,969 - BaccaratApp - ERROR - main_window:131 - Error loading default_fusion.json: 'RandomForestClassifier' object has no attribute 'estimators_'
+Traceback (most recent call last):
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/gui/main_window.py", line 127, in _update_strategy_map
+    if not default_combiner.fallback_strategy.model: default_combiner.fallback_strategy.fit(None,None)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/ensemble/_base.py", line 154, in __len__
+    return len(self.estimators_)
+               ^^^^^^^^^^^^^^^^
+AttributeError: 'RandomForestClassifier' object has no attribute 'estimators_'
+2025-06-27 18:59:55,970 - BaccaratApp - INFO - main_window:293 - Loading round data into table view.
+2025-06-27 18:59:55,972 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:55,972 - BaccaratApp - INFO - main_window:306 - Loaded 0 rounds into table view.
+2025-06-27 18:59:55,973 - BaccaratApp - DEBUG - main_window:275 - Loading available shoes into combobox.
+2025-06-27 18:59:55,973 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:55,973 - BaccaratApp - INFO - main_window:287 - No shoes with data found to load.
+2025-06-27 18:59:55,973 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 18:59:55,973 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:55,973 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 18:59:55,973 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 18:59:55,973 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 18:59:55,974 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 18:59:56,016 - BaccaratApp - INFO - main_window:609 - System tray icon created.
+2025-06-27 18:59:56,016 - BaccaratApp - INFO - run_gui:79 - Showing MainWindow...
+2025-06-27 18:59:56,037 - BaccaratApp - INFO - run_gui:82 - Starting QApplication event loop...
+2025-06-27 19:00:01,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:01,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:01,127 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:01,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:01,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:01,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:06,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:06,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:06,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:06,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:06,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:06,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:11,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:11,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:11,127 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:11,129 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:11,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:11,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:16,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:16,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:16,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:16,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:16,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:16,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:21,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:21,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:21,127 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:21,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:21,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:21,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:26,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:26,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:26,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:26,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:26,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:26,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:31,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:31,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:31,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:31,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:31,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:31,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:36,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:36,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:36,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:36,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:36,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:36,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:41,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:41,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:41,128 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:41,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:41,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:41,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:46,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:46,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:46,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:46,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:46,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:46,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:51,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:51,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:51,128 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:51,129 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:51,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:51,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:56,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:56,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:56,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:00:56,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:00:56,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:00:56,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:01,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:01,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:01,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:01,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:01,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:01,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:06,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:06,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:06,128 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:06,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:06,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:06,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:11,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:11,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:11,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:11,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:11,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:11,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:16,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:16,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:16,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:16,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:16,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:16,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:21,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:21,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:21,127 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:21,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:21,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:21,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:26,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:26,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:26,127 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:26,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:26,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:26,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:31,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:31,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:31,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:31,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:31,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:31,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:36,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:36,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:36,128 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:36,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:36,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:36,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:41,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:41,126 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:41,126 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:41,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:41,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:41,127 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:46,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:46,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:46,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:46,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:46,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:46,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:51,126 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:51,127 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:51,127 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:51,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:51,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:51,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:56,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:56,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:56,128 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:01:56,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:01:56,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:01:56,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:01,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:01,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:01,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:01,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:01,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:01,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:06,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:06,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:06,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:06,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:06,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:06,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:11,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:11,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:11,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:11,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:11,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:11,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:16,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:16,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:16,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:16,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:16,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:16,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:21,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:21,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:21,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:21,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:21,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:21,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:26,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:26,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:26,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:26,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:26,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:26,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:31,127 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:31,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:31,128 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:31,129 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:31,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:31,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:36,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:36,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:36,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:36,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:36,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:36,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:41,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:41,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:41,128 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:41,129 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:41,129 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:41,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:46,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:46,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:46,130 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:46,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:46,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:46,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:51,128 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:51,128 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:51,129 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:02:51,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:02:51,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:02:51,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:10,090 - BaccaratApp - INFO - run_gui:21 - Application starting up (run_gui.py)...
+2025-06-27 19:06:10,091 - BaccaratApp - INFO - run_gui:31 - QtLogHandler added to app_logger. GUI will receive logs.
+2025-06-27 19:06:10,095 - BaccaratApp - INFO - run_gui:33 - Ensuring database tables are created...
+2025-06-27 19:06:10,097 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:10,097 - BaccaratApp - INFO - utils:67 - Checking and creating database tables if they don't exist...
+2025-06-27 19:06:10,098 - BaccaratApp - DEBUG - utils:80 - Table 'shoes' checked/created.
+2025-06-27 19:06:10,098 - BaccaratApp - DEBUG - utils:99 - Table 'rounds' checked/created.
+2025-06-27 19:06:10,098 - BaccaratApp - DEBUG - utils:114 - Table 'bets' checked/created.
+2025-06-27 19:06:10,098 - BaccaratApp - DEBUG - utils:118 - Indexes checked/created.
+2025-06-27 19:06:10,098 - BaccaratApp - INFO - utils:121 - Database tables checked/created successfully at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:10,098 - BaccaratApp - INFO - run_gui:35 - Database tables checked/created.
+2025-06-27 19:06:10,100 - BaccaratApp - INFO - run_gui:47 - Backup for today (20250627) already exists: backup_20250627_181830.zip
+2025-06-27 19:06:11,451 - BaccaratApp - INFO - run_gui:68 - Initializing QApplication...
+2025-06-27 19:06:11,596 - BaccaratApp - INFO - run_gui:71 - Creating MainWindow instance...
+2025-06-27 19:06:11,597 - BaccaratApp - INFO - main_window:29 - MainWindow initialized.
+2025-06-27 19:06:11,662 - BaccaratApp - INFO - bet_manager:15 - BetManager initialized (Simulated Real Betting).
+2025-06-27 19:06:11,728 - BaccaratApp - INFO - simulation_chart_widget:10 - SimulationChartWidget initializing.
+2025-06-27 19:06:11,757 - BaccaratApp - INFO - simulation_chart_widget:54 - SimulationChartWidget initialized successfully with P/L and Trend plots.
+2025-06-27 19:06:11,775 - BaccaratApp - INFO - main_window:77 - Connected QtLogHandler to LogDisplayWidget.
+2025-06-27 19:06:11,776 - BaccaratApp - DEBUG - main_window:265 - Loading styles...
+2025-06-27 19:06:11,778 - BaccaratApp - INFO - main_window:269 - Styles loaded successfully.
+2025-06-27 19:06:11,779 - BaccaratApp - INFO - strategy_ml:30 - SimpleML_RandomForest: No pre-trained model found at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/ml_models/simple_ml_randomforest_model.joblib. Model needs to be trained or loaded.
+2025-06-27 19:06:11,779 - BaccaratApp - INFO - strategy_ml:33 - SimpleML_RandomForest: Initialized with a default untrained RandomForestClassifier.
+2025-06-27 19:06:11,779 - BaccaratApp - INFO - strategy_ml:210 - SimpleML_RandomForest: No pre-trained model found or loaded. Initializing a new RandomForestClassifier. Call 'train_on_shoe_data' or 'fit' to train.
+2025-06-27 19:06:11,779 - BaccaratApp - INFO - strategy_combiner:77 - Successfully loaded strategy configuration from /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/core/../output/strategy_configs/default_fusion.json
+2025-06-27 19:06:11,780 - BaccaratApp - INFO - strategy_combiner:23 - StrategyCombiner initialized with config: default_fusion.json - Name: DefaultFusionStrategy
+2025-06-27 19:06:11,780 - BaccaratApp - INFO - strategy_combiner:109 - Successfully initialized strategy: FollowTheShoe from core.strategy_rules.FollowTheShoeStrategy with weight 1
+2025-06-27 19:06:11,780 - BaccaratApp - INFO - strategy_combiner:109 - Successfully initialized strategy: Alternate from core.strategy_rules.AlternateStrategy with weight 1
+2025-06-27 19:06:11,780 - BaccaratApp - INFO - strategy_ml:30 - SimpleML_RandomForest: No pre-trained model found at /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/ml_models/simple_ml_randomforest_model.joblib. Model needs to be trained or loaded.
+2025-06-27 19:06:11,781 - BaccaratApp - INFO - strategy_ml:33 - SimpleML_RandomForest: Initialized with a default untrained RandomForestClassifier.
+2025-06-27 19:06:11,781 - BaccaratApp - INFO - strategy_ml:210 - SimpleML_RandomForest: No pre-trained model found or loaded. Initializing a new RandomForestClassifier. Call 'train_on_shoe_data' or 'fit' to train.
+2025-06-27 19:06:11,781 - BaccaratApp - INFO - strategy_combiner:109 - Successfully initialized strategy: SimpleML_RandomForest from core.strategy_ml.SimpleMLStrategy with weight 1
+2025-06-27 19:06:11,781 - BaccaratApp - INFO - strategy_combiner:29 - Fallback strategy 'SimpleML_RandomForest' initialized.
+2025-06-27 19:06:11,781 - BaccaratApp - INFO - strategy_combiner:35 - Fusion method: majority_vote_with_fallback
+2025-06-27 19:06:11,782 - BaccaratApp - ERROR - main_window:131 - Error loading default_fusion.json: 'RandomForestClassifier' object has no attribute 'estimators_'
+Traceback (most recent call last):
+  File "/Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/gui/main_window.py", line 127, in _update_strategy_map
+    if not default_combiner.fallback_strategy.model: default_combiner.fallback_strategy.fit(None,None)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/ensemble/_base.py", line 154, in __len__
+    return len(self.estimators_)
+               ^^^^^^^^^^^^^^^^
+AttributeError: 'RandomForestClassifier' object has no attribute 'estimators_'
+2025-06-27 19:06:11,783 - BaccaratApp - INFO - main_window:293 - Loading round data into table view.
+2025-06-27 19:06:11,785 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:11,786 - BaccaratApp - INFO - main_window:306 - Loaded 0 rounds into table view.
+2025-06-27 19:06:11,786 - BaccaratApp - DEBUG - main_window:275 - Loading available shoes into combobox.
+2025-06-27 19:06:11,786 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:11,786 - BaccaratApp - INFO - main_window:287 - No shoes with data found to load.
+2025-06-27 19:06:11,787 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:11,787 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:11,787 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:11,787 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:11,787 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:11,787 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:11,843 - BaccaratApp - INFO - main_window:617 - System tray icon created.
+2025-06-27 19:06:11,843 - BaccaratApp - INFO - run_gui:79 - Showing MainWindow...
+2025-06-27 19:06:11,863 - BaccaratApp - INFO - run_gui:82 - Starting QApplication event loop...
+2025-06-27 19:06:17,037 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:17,038 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:17,038 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:17,040 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:17,040 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:17,040 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:22,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:22,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:22,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:22,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:22,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:22,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:27,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:27,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:27,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:27,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:27,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:27,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:32,129 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:32,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:32,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:32,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:32,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:32,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:37,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:37,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:37,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:37,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:37,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:37,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:42,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:42,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:42,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:42,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:42,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:42,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:47,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:47,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:47,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:47,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:47,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:47,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:52,129 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:52,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:52,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:52,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:52,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:52,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:57,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:57,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:57,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:06:57,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:06:57,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:06:57,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:02,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:02,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:02,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:02,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:02,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:02,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:07,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:07,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:07,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:07,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:07,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:07,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:12,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:12,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:12,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:12,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:12,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:12,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:17,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:17,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:17,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:17,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:17,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:17,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:22,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:22,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:22,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:22,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:22,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:22,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:27,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:27,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:27,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:27,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:27,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:27,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:31,375 - BaccaratApp - INFO - main_window:365 - Attempting to run simulation from GUI.
+2025-06-27 19:07:31,377 - BaccaratApp - WARNING - main_window:368 - Simulation run attempt failed: Invalid shoe selected ('No shoes with data').
+2025-06-27 19:07:32,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:32,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:32,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:32,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:32,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:32,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:34,841 - BaccaratApp - INFO - main_window:365 - Attempting to run simulation from GUI.
+2025-06-27 19:07:34,843 - BaccaratApp - WARNING - main_window:368 - Simulation run attempt failed: Invalid shoe selected ('No shoes with data').
+2025-06-27 19:07:37,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:37,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:37,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:37,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:37,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:37,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:42,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:42,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:42,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:42,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:42,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:42,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:47,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:47,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:47,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:47,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:47,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:47,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:52,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:52,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:52,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:52,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:52,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:52,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:57,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:57,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:57,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:07:57,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:07:57,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:07:57,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:02,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:02,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:02,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:02,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:02,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:02,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:07,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:07,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:07,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:07,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:07,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:07,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:12,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:12,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:12,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:12,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:12,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:12,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:17,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:17,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:17,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:17,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:17,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:17,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:22,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:22,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:22,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:22,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:22,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:22,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:27,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:27,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:27,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:27,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:27,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:27,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:32,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:32,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:32,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:32,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:32,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:32,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:37,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:37,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:37,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:37,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:37,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:37,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:42,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:42,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:42,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:42,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:42,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:42,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:47,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:47,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:47,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:47,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:47,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:47,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:52,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:52,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:52,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:52,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:52,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:52,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:57,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:57,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:57,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:08:57,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:08:57,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:08:57,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:02,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:02,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:02,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:02,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:02,136 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:02,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:07,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:07,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:07,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:07,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:07,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:07,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:12,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:12,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:12,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:12,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:12,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:12,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:17,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:17,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:17,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:17,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:17,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:17,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:22,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:22,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:22,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:22,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:22,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:22,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:27,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:27,130 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:27,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:27,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:27,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:27,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:32,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:32,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:32,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:32,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:32,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:32,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:37,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:37,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:37,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:37,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:37,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:37,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:42,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:42,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:42,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:42,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:42,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:42,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:47,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:47,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:47,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:47,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:47,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:47,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:52,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:52,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:52,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:52,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:52,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:52,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:57,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:57,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:57,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:09:57,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:09:57,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:09:57,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:02,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:02,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:02,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:02,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:02,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:02,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:07,130 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:07,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:07,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:07,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:07,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:07,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:12,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:12,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:12,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:12,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:12,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:12,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:17,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:17,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:17,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:17,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:17,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:17,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:22,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:22,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:22,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:22,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:22,136 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:22,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:27,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:27,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:27,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:27,133 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:27,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:27,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:32,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:32,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:32,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:32,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:32,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:32,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:37,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:37,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:37,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:37,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:37,136 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:37,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:42,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:42,131 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:42,131 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:42,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:42,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:42,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:47,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:47,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:47,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:47,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:47,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:47,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:52,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:52,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:52,132 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:52,134 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:52,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:52,135 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:57,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:57,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:57,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:10:57,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:10:57,136 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:10:57,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:02,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:02,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:02,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:02,136 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:02,137 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:02,137 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:07,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:07,133 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:07,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:07,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:07,136 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:07,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:12,132 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:12,134 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:12,134 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:12,136 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:12,136 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:12,137 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:17,131 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:17,132 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:17,133 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
+2025-06-27 19:11:17,135 - BaccaratApp - DEBUG - utils:131 - Fetching today's performance summary since 2025-06-27 00:00:00
+2025-06-27 19:11:17,135 - BaccaratApp - DEBUG - utils:60 - Database connection established to /Users/yaoshengwang/Documents/GitHub/bjl/bjl/xiaoxiao1_mac/data/baccarat.db
+2025-06-27 19:11:17,136 - BaccaratApp - INFO - utils:151 - Today's performance: Total P/L = 0.00, Total Bets = 0
