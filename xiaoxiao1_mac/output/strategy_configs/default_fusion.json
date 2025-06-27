@@ -1,0 +1,28 @@
+{
+    "name": "DefaultFusionStrategy",
+    "description": "A simple fusion of FollowTheShoe and Alternate, with a fallback to RandomML if they disagree.",
+    "fusion_method": "majority_vote_with_fallback",
+    "strategies": [
+        {
+            "name": "FollowTheShoe",
+            "module": "core.strategy_rules",
+            "class": "FollowTheShoeStrategy",
+            "weight": 1
+        },
+        {
+            "name": "Alternate",
+            "module": "core.strategy_rules",
+            "class": "AlternateStrategy",
+            "weight": 1
+        }
+    ],
+    "fallback_strategy": {
+        "name": "FallbackRandomML",
+        "module": "core.strategy_ml",
+        "class": "SimpleMLStrategy",
+        "weight": 1
+    },
+    "decision_parameters": {
+        "available_bets": ["Player", "Banker"]
+    }
+}

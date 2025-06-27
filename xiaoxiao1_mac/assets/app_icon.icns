@@ -1,0 +1,5 @@
+# This is a placeholder for a macOS .icns file.
+# In a real scenario, this would be a binary .icns file.
+# PyInstaller will use this, but the icon might not display correctly
+# in Finder unless it's a valid .icns.
+placeholder_icns_data

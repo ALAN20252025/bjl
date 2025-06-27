@@ -1,0 +1,9 @@
+/* Placeholder for global GUI styles */
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QLabel {
+    font-size: 14px;
+    color: #333;
+}
